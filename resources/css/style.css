@@ -2,3 +2,58 @@ html {
     font-size: 18px;
     line-height: 1.4;
 }
+body {
+    font-family: Helvetica;
+}
+
+/*THIS IS THE BANNER SECTION*/
+.banner {
+    display: flex;
+    height: 31rem;
+    width: 100%;
+    background-image: url(../images/glasses-bg.png);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    border: 3px solid black;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 3rem;
+    width: 960px;
+    background-color: cadetblue;
+    margin-top: 1rem;
+    border: 3px dotted black;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 2rem;
+    width: auto;
+    margin-left: 2rem;
+    border: 3px solid blue;
+}
+.logo img {
+    height: 1.5rem;
+    padding-right: 1rem;
+}
+.logo span {
+    color: white;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 2rem;
+    width: auto;
+    align-items: center;
+    margin-right: 2rem;
+    border: 3px solid blue;
+}
+nav span {
+    color: white;
+    padding-right: 2rem;
+}
