@@ -224,7 +224,7 @@ h3 {
     .logo span {
         display: none;
     }
-    .logo img {
+    .logo img, .biz-echo img {
         height: 1.25rem;
     }
     nav span {
@@ -263,9 +263,6 @@ h3 {
     .content-box span {
         font-size: 0.9rem;
     }
-    .biz-echo img {
-        height: 1.25rem;
-    }
 }
 
 /*THIS IS THE 580PX MEDIA QUERY*/
@@ -289,6 +286,34 @@ h3 {
     }
     #truck {
         margin-top: 1.5rem;
+    }
+    .info {
+        height: auto;
+    }
+    .content {
+       flex-direction: column;
+    }
+    .content-box {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0rem;
+        margin-bottom: 3rem;
+    }
+    .philosophy, .appointments {
+        width: 100%;
+        text-align: center;
+    }
+    .content-box span {
+        font-size: .8rem;
+    }
+    .biz-echo span {
+        display: none;
+    }
+    .biz-echo img {
+        margin-left: 1.5rem;
+    }
+    .footerbox {
+        justify-content: center;
     }
 }
 
