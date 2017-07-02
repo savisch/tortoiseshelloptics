@@ -16,10 +16,8 @@ body {
     background-image: url(../images/glasses-bg.png);
     background-size: cover;
     background-position: center;
-    /*justify-content: center;*/
     border: 3px solid black;
 }
-
 /*THIS IS THE BANNER HEADER*/
 .header {
     display: flex;
@@ -61,7 +59,6 @@ nav span {
     color: white;
     padding-right: 2rem;
 }
-
 /*THIS IS THE BANNER SPLASH*/
 .splash {
     display: flex;
@@ -84,4 +81,45 @@ nav span {
     font-weight: bold;
     line-height: 1.2;
     padding: 1.75rem 5rem;
+}
+
+/*THIS IS THE FEATURES SECTION*/
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 14rem;
+    width: 100%;
+    border: 3px solid red; 
+}
+.feature-set {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 960px;
+    border: 3px dotted black;
+}
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    height: 8rem;
+    width: 5rem;
+    border: 3px solid blue;
+}
+.icon span {
+    text-align: center;
+}
+#paper {
+    width: 3.5rem;
+    margin-top: 0;
+}
+#ruler, #truck {
+    width: 5rem;
+    margin-top: 1rem;
 }
